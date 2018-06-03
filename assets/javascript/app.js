@@ -1,8 +1,8 @@
 var questionArray = [
-    {question : "what is the best color in the world", a: "orange" , b : "green" , c : "pink" , d : "blue" , answer : "orange"},
-    {question : "what is the worst color in the world", a: "orange" , b : "green" , c : "pink" , d : "blue" , answer : "green"},
-   {question : "what is the warmest color in the world", a: "orange" , b : "green" , c : "pink" , d : "blue" , answer : "pink"},
-   {question : "what is the darkest color in the world", a: "orange" , b : "green" , c : "pink" , d : "blue" , answer : "blue"}
+    {question : "When does the Atlantic hurricane season officially begin?", a: "April 20" , b : "June 1" , c : "Winter" , d : "Randomly" , answer : "June 1"},
+    {question : "In which of these directions is a US tornado most likely to travel?", a: "Westward" , b : "Southward" , c : "Northward" , d : "Eastward" , answer : "Eastward"},
+   {question : "The state with the most tornadoes annually is:", a: "Kansas" , b : "Florida" , c : "Oklahoma" , d : "Texas" , answer : "Texas"},
+   {question : "Where is one of the most dangerous places to be during a tornado?", a: "Under a tree" , b : "A mobile home" , c : "In my ferrari" , d : "Your girls DM's" , answer : "A mobile home"}
 
 ]
 var question = 0;
@@ -43,7 +43,7 @@ function theMultChoi () {
     theQuestion.addClass("multchoi")
     $(".container").append(theQuestion);
 
-    //clicklery () ;
+    clicklery () ;
 };
 
 theQuestions () ;
